@@ -1,6 +1,7 @@
-import dayjs from 'dayjs'
 import { FastifyInstance } from "fastify";
+
 import { z } from 'zod'
+import dayjs from 'dayjs'
 import { prisma } from "./lib/prisma";
 
 export async function appRoutes(app: FastifyInstance) {
